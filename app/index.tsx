@@ -8,10 +8,16 @@ const App = () => {
         <Text className="text-5xl" style={{ fontFamily: "WorkSans-Black" }}>
           Hola Mundo
         </Text>
-        <Text className="text-4xl font-work-black">Hola Mundo</Text>
-        <Text className="text-3xl font-work-medium">Hola Mundo</Text>
-        <Text className="text-2xl font-work-light">Hola Mundo</Text>
-        <Text className="text-xl">Hola Mundo</Text>
+        <Text className="text-4xl text-primary font-work-black">
+          Hola Mundo
+        </Text>
+        <Text className="text-3xl text-secondary font-work-medium">
+          Hola Mundo
+        </Text>
+        <Text className="text-2xl text-secondary-100 font-work-light">
+          Hola Mundo
+        </Text>
+        <Text className="text-xl text-tertiary">Hola Mundo</Text>
       </View>
     </SafeAreaView>
   );
